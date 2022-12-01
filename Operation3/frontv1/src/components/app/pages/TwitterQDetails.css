@@ -1,0 +1,198 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  /* transform: translate(-50%, -50%); */
+  position: fixed;
+  z-index: 1;
+
+}
+
+.centered {
+  z-index: 100;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background: #EDE7E2;
+  color: black;
+  z-index: 30;
+  border-radius: 16px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  border: 20px solid;
+  border-color: #F4EEE9;
+}
+
+.modalHeader {
+  display: flex;
+  height: 80px;
+  background: #EDE7E2;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.modalTwitter-Logo-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+.ModalTwitter-TwitterBird{
+  height: 50px;
+}
+
+.ModalTwitter-heading {
+  margin: 0;
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.modalContent{
+  display: flex;
+  justify-content: center;
+}
+.modalContent-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+.modalContent-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+}
+
+.ModalTwitter-renderJoinedQuests{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  gap: 50px;
+}
+
+.modalActions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+  bottom: 2px;
+  width: 100%;
+}
+
+.actionsContainer{  
+  margin-top: 10px;
+}
+.buttonTestBgBlue{
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  padding:5px;
+  /* margin: 10px; */
+  background-color: #0179B7;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.ModalTwitter-renderJoinedQuests-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* double */
+.ModalTwitter-renderJoinedQuests-right{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.closeBtn {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  color: black;
+  background: white;
+  transition: all 0.25s ease;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.06);
+  position: absolute;
+  right: 0;
+  top: 0;
+  align-self: flex-end;
+  margin-top: -7px;
+  margin-right: -7px;
+}
+
+.closeBtn:hover {
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+  transform: translate(-4px, 4px);
+}
+
+.deleteBtn {
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #2c3e50;
+  background: #fcfcfc;
+  transition: all 0.25s ease;
+}
+
+.deleteBtn:hover {
+  box-shadow: 0 10px 20px -10px #1DA1F2;
+  transform: translateY(-5px);
+  background: whitesmoke;
+}
+
+.cancelBtn {
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 11px 28px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  border: none;
+  color: #2c3e50;
+  background: #fcfcfc;
+  transition: all 0.25s ease;
+}
+
+.cancelBtn:hover {
+  box-shadow: none;
+  transform: none;
+  background: whitesmoke;
+}

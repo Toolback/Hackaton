@@ -1,0 +1,80 @@
+[
+  {
+      "Details": {
+        "id": 1,
+        "image": "#",
+        "name": "Laura",
+        "created": "04/03/2022",
+        "company": "None",
+        "isEmployee": "false",
+        "isBoss": "false",
+        "dna": "N/A",
+        "winCount": 0,
+        "loseCount": 0,
+        "statistics": {
+            "level": 1,
+            "exp": 0,
+            "health": 100,
+            "hunger": 70,
+            "sanity": 70
+        },
+  
+        "caracteristics": {
+            "force": 0,
+            "agility": 0,
+            "intelligence": 0,
+            "charisma": 0
+        },
+        "attributs": {
+            "positive": {
+                "generous": 0,
+                "kind": 0,
+                "civilized": 0,
+                "funny": 0,
+                "perfectionnist": 0,
+                "creative": 0,
+                "trusthworthy": 0,
+                "charismatic": 0,
+                "brave": 0,
+                "juste": 0,
+                "repetent": 0,
+                "patient": 0
+            },
+            "neutral": {
+                "resiliant": 0,
+                "discreet": 0,
+                "fanatic": 0,
+                "marginal": 0,
+                "gambler": 0,
+                "lucky": 0
+            },
+            "negative": {
+                "cupid": 0,
+                "hateful": 0,
+                "jalous": 0,
+                "mischievous": 0,
+                "laxiste": 0,
+                "insensitive": 0,
+                "aggressif": 0,
+                "manipulator": 0,
+                "doubtfull": 0,
+                "coward": 0,
+                "impatient": 0
+            }
+            
+        }
+
+      },
+
+      "SocialesFiles": {
+
+      },
+
+      "InGameDataEvent": {
+
+      }
+
+
+   
+  }
+]
